@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodtang</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="rodtang.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img class="logo-img" src="../img/cooltext374061261468755.png" alt="">
+        </div>
+        <div class="header-list">
+            <ul>
+                <li><a class="h-product" href="#">商品情報</a></li>
+                <li><a class="h-news" href="#">お知らせ</a></li>
+                <li><a class="h-q-a" href="#">Q&A</a></li>
+                <li><a class="h-hire" href="#">採用情報</a></li>
+                <li><a class="h-com-info" href="#">会社情報</a></li>
+                <li><a class="h-contact" href="#">お問い合わせ</a></li>
+            </ul>
+        </div>
+        <form class="search" action="/search-result/">
+            <input id="search-input" placeholder="キーワードを入力" type="text" name="search-key">
+            <input id="search-buttom" class="fas" type="submit" value="" method="get">
+        </form>
+        <!-- <div class="header-search">
+            <i class="fas fa-search"></i>
+        </div> -->
+    </header>
+    <main>
+        <div class="main-slider">
+            <div class="worksslider inside">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+                    <!-- Indicators 真ん中下の丸い点-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                    </ol>
+                    <!-- 画像のエリア -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="../img/curve-1209392_1920.jpg" alt="">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../img/singapore-2696704_1920.jpg" alt="">
+                            <div class="carousel-caption">
+                            <!-- キャプション -->
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../img/filler-2005834_1920.jpg" alt="">
+                            <div class="carousel-caption">
+                            <!-- キャプション -->
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../img/pen-2768279_1920.jpg" alt="">
+                            <div class="carousel-caption">
+                            <!-- キャプション -->
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../img/stationery-1412848_1280.jpg" alt="">
+                            <div class="carousel-caption">
+                            <!-- キャプション -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls 左右のアイコン矢印-->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <div class="inner">
+                <div class="news-head">
+                    <h2>News</h2>
+                    <h3>―お知らせ―</h3>
+                </div>
+                <div class="artical-box">
+                    <!-- 記事の箱1 -->
+                    <artical class="artical-item">
+                        <div class="artical-img">
+                            <a href="#"><img src="../img/school-3980940_1920.jpg" alt="画像1"></a>
+                        </div>
+                        <div class="artical-body">
+                            <div class="artical-head">2021.01.18</div>
+                            <h3 class="artical-title">
+                                <a href="#">【世界中で未来を描く】Rodtang シンガポール第1号店が、2021年2月15日よりオープンします。</a>
+                            </h3>
+                        </div>
+                    </artical>
+                    <!-- 記事の箱2 -->
+                    <artical class="artical-item">
+                        <div class="artical-img">
+                            <a href="#"><img src="../img/school-times-3599176_1920.jpg" alt="画像2"></a>
+                        </div>
+                        <div class="artical-body">
+                            <div class="artical-head">2021.01.12</div>
+                            <h3 class="artical-title">
+                                <a href="#">Sherryプレゼンツ『Revolデザインコンテスト2021』開催のお知らせ。<br>2021年3月15日～5月6日</a>
+                            </h3>
+                        </div>
+                    </artical>
+                    <!-- 記事の箱3 -->
+                    <artical class="artical-item">
+                        <div class="artical-img">
+                            <a href="#"><img src="../img/vintage-2053118_1920.jpg" alt="画像3"></a>
+                        </div>
+                        <div class="artical-body">
+                            <div class="artical-head">2021.01.08</div>
+                            <h3 class="artical-title">
+                                <a href="#">2021年2月1日、Rodtang横浜店にて【世界文房具デザイン展】が行われます。</a>
+                            </h3>
+                        </div>
+                    </artical>
+                    <!-- 記事の箱4 -->
+                    <artical class="artical-item">
+                        <div class="artical-img">
+                            <a href="#"><img src="../img/flatlay-4053769_1920.jpg" alt="画像4"></a>
+                        </div>
+                        <div class="artical-body">
+                            <div class="artical-head">2021.01.04</div>
+                            <h3 class="artical-title">
+                                <a href="#"></a>
+                            </h3>
+                        </div>
+                    </artical>
+                    
+                </div>
+                <!-- 横バージョン画像なし記事のエリア -->
+                <div class="line-artical">
+                    <article class="line">
+                        <div class="line-date">2021.01.01</div>
+                        <div class="line-title"><a href="#">　新年あけましておめでとうございます！2021年も精進してまいりますので、<br>　今後ともRodtangをどうぞよろしくお願いします</a></div>
+                    </article>
+                    <article class="line">
+                        <div class="line-date">2020.12.28</div>
+                        <div class="line-title"><a href="#">【新年sale】2021年1月1日~1月15日の期間限定で、Rodtang対象商品が30%off</a></div>
+                    </article>
+                    <article class="line">
+                        <div class="line-date">2020.12.25</div>
+                        <div class="line-title"><a href="#">【メリークリスマス🎉】Rodtang × Suakim コラボシャープペン『Rodtang.Vos-Christmas.ver』当選者発表。<br>　　　　　　　　　　　 参加賞Amazonギフトコード100円分の配布。</a></div>
+                    </article>
+                    <article class="line">
+                        <div class="line-date">2020.12.20</div>
+                        <div class="line-title"><a href="#">【Rodtang 7周年記念】Rodtang7周年を記念致しまして、抽選で300名の方に『Rodtang.Vos-007』をプレゼントします。<br>　応募期間:　2020年12月21日~2021年1月31日　当選発表 :　2021年2月7日</a></div>
+                    </article>
+                </div>
+                <div class="artical-btn">
+                    <div class="btn-list">
+                        <a href="#">お知らせ一覧</a>
+                        <a href="#">プレスリリース一覧</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 第3章各種情報 -->
+        <div class="info">
+            <div class="info-inner">
+                <div class="info-head">
+                    <h2>Information</h2>
+                    <h3>―各種情報―</h3>
+                </div>
+                <div class="info-content">
+                    <info class="info-item">
+                        <a href="#">
+                            <h3>Product</h3>
+                            <p>商品情報</p>
+                            <img src="../img/galaxy-5155754_1920.jpg" alt="商品情報">
+                        </a>
+                    </info>
+                    <info class="info-item">
+                        <a href="#">
+                            <h3>Company</h3>
+                            <p>会社情報</p>
+                            <img src="../img/alley-89197_1920.jpg" alt="会社情報">
+                        </a>
+                    </info>
+                    <info class="info-item">
+                        <a href="#">
+                            <h3>Recruit</h3>
+                            <p>採用情報</p>
+                            <img src="../img/milky-way-1023340_1920.jpg" alt="採用情報">
+                        </a>
+                    </info>
+                </div>
+            </div>
+        </div>
+        <div class="Event">
+            <div class="E-inner">
+                <div class="E-head">
+                    <h2>Event</h2>
+                    <h3>―イベント―</h3>
+                </div>
+                <div class="E-main">
+                    <div class="btns">
+                        <a class="form" href="#">応募フォームはこちら</a>
+                        <a class="detail" href="#">詳細</a>
+                    </div>
+                    <img src="../img/abstract-3592117_1920.jpg" alt="背景">
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-innner">
+            <div class="footer-name">
+                <p>RODTANG　OFFICIAL</p>
+            </div>
+            <div class="media">
+                <ul>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-youtube"></i></li>
+                </ul>
+            </div>
+            <div class="footer-logo">
+                <div class="logo">
+                    <img src="../img/cooltext374751633276099.png" alt="ロゴ">
+                    <p>株式会社Rodtang</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2021 RODTANG PRODUCTS CORPORATION</p>
+            </div>
+        </div>
+    </footer>
+    <script src="rodtang.js"></script>
+</body>
+</html>
